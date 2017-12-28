@@ -17,7 +17,7 @@ export function init(argv) {
 
   if (exists(dirName)) {
     Log.warn(`\nDirectory '${dirName}' already exists.`);
-    Log.warn('Use \'reaction init somename\' to install in a different directory.\n');
+    Log.warn('Use \'reaction init <name_of_directory>\' to install in a different directory.\n');
     process.exit(1);
   }
 
